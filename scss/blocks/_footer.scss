@@ -1,0 +1,129 @@
+.site-footer{
+  background-color: white;
+}
+
+.footer-inner__logo{
+  &:hover{
+    opacity: 0.8;
+  }
+  &:active{
+    opacity: 0.6;
+  }
+}
+
+.footer-inner{
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-lits{
+  padding: 0;
+  margin: 0;
+
+  &::before{
+    content: "";
+    width: 25px;
+  }
+}
+
+.footer-lits2{
+  padding: 0;
+  margin: 0;
+}
+
+.footer-list__link{
+  font-family: $main-fonts-futura;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: $main-color-black;
+  transition: 0.6s;
+
+  &:hover{
+    color: $main-link-color;
+  }
+
+  &:active{
+    color: $main-color-black;
+    opacity: 0.8;
+  }
+}
+
+.footer-inner__tel{
+  display: block;
+}
+
+.footer-inner__time{
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  font-family: $main-fonts-futura;
+  color: $main-color-black;
+
+  &::before{
+    content: "";
+    width: 14px;
+    height: 13px;
+    position: absolute;
+    z-index: 1;
+    background-image: url(../images/calendar-svg.svg);
+    background-repeat: no-repeat;
+    top: 1px;
+    left: -18px;
+  }
+}
+
+.footer-inner__time__strong{
+  margin-right: 4px;
+}
+
+.footer-inner__address{
+  width: 157px;
+  display: block;
+  position: relative;
+
+  &::before{
+    content: "";
+    width: 14px;
+    height: 13px;
+    position: absolute;
+    z-index: 1;
+    background-image: url(../images/house.svg);
+    background-repeat: no-repeat;
+    top: 1px;
+    left: -18px;
+  }
+}
+
+.footer-inner__address__link{
+  font-family: $main-fonts-futura;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  align-items: center;
+  color: $main-color-black;
+}
+
+.tel__item2{
+  font-family: $main-fonts-futura;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: $main-color-black;
+  transition: 0.6s;
+
+  &:hover{
+    color: $main-link-color;
+  }
+
+  &:active{
+    color: $main-color-black;
+    opacity: 0.6;;
+  }
+}

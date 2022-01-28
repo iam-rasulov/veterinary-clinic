@@ -1,0 +1,77 @@
+.aphorism{
+  position: relative;
+  &::before{
+    content: "";
+    width: 140px;
+    height: 1px;
+    position: absolute;
+    background-image: url(../../images/linetop.png);
+    background-repeat: no-repeat;
+    top: -35px;
+    left: 605px;
+  }
+
+  &::after{
+    content: "";
+    width: 140px;
+    height: 1px;
+    position: absolute;
+    background-image: url(../../images/linetop.png);
+    background-repeat: no-repeat;
+    bottom: 90px;
+    right: 605px;
+  }
+}
+
+.aphorism-inner{
+  width: 753px;
+  margin: 0 auto;
+  margin-top: 100px;
+  text-align: center;
+
+  &::before{
+    content: "";
+    width: 148px;
+    height: 120px;
+    position: absolute;
+    background-image: url(../images/text.png);
+    background-repeat: no-repeat;
+    top: -35px;
+    left: 200px;
+  }
+
+  &::after{
+    content: "";
+    width: 148px;
+    height: 120px;
+    position: absolute;
+    background-image: url(../images/text2.png);
+    background-repeat: no-repeat;
+    bottom: 50px;
+    right: +130px;
+  }
+}
+
+.aphorism__title{
+  margin: 0 auto;
+  font-family: $main-fonts-futura;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #949494;
+}
+
+.aphorism__text{
+  margin: 0 auto;
+  margin-top: 90px;
+  width: 357px;
+  font-family: $main-fonts-futura;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: $main-color-black;
+
+}

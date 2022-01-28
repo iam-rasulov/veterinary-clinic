@@ -1,0 +1,67 @@
+.intro{
+  background-image: url(../images/Group62.png) , url(../images/parrot.png);
+  background-repeat: no-repeat;
+  background-position: calc(50% - 500px ) calc(50% - 80px ) , calc(50% + 610px) calc(50% + 260px); 
+}
+
+.intro-inner{
+  width: 628px;
+  height: 950px;
+  margin-top: 50px;
+  padding-top: 153px;
+  margin-right: 150px;
+  margin-left: auto;
+}
+
+.intro-inner__title{
+  font-family: $main-fonts-futura;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 64px;
+  color: $main-color-black;
+}
+
+.intro-inner__title__span{
+  font-family: $main-fonts-futura;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 64px;
+  color: rgb(49, 97, 218);
+}
+
+.intro-inner__text{
+  margin-bottom: 50px;
+  font-family: $main-fonts-futura;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: #949494;
+}
+
+.intro-inner__link{
+  width: 121px;
+  height: 50px;
+  margin-top: 38px;
+  padding: 16px 48px;
+  background-color: $main-color-black;
+  font-family: $main-fonts-futura;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  transition: 0.8s;
+  border-radius: 3px;
+
+  &:hover{
+    background-color: $main-link-color;
+  }
+
+  &:active{
+    background-color: $main-link-color;
+    opacity: 0.6;
+  }
+}

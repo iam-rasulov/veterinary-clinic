@@ -1,0 +1,148 @@
+.atricles-inner{
+  width: 1280px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.articles-inner__title{
+  margin-bottom: 80px;
+  text-align: center;
+  font-family: $main-fonts-futura;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 20px;
+  color: $main-color-black;
+}
+
+.articles-inner__time{
+  margin-left: 175px;
+  font-family: $main-fonts-futura;
+  font-size: 14px;
+  line-height: 18px;
+  color: #949494;
+}
+
+.articles-inner__list{
+  width: 1298px;
+  height: 435px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.articles-inner__item{
+  width: 305px;
+  height: 485px;
+  padding-bottom: 50px;
+
+  &:nth-child(2){
+    display: flex;
+    width: 640px;
+    margin-left: 28px;
+  }
+}
+
+.articles-inner__box{
+  width: 270px;
+  justify-content: space-between;
+}
+
+.articles-inner__box__time{
+  margin-left: 20px;
+  font-family: $main-fonts-futura;
+  font-size: 14px;
+  line-height: 18px;
+  color: #949494;
+}
+
+.articles-inner__box__link{
+  font-family: $main-fonts-futura;
+  font-size: 14px;
+  line-height: 22px;
+  color: #3D9CEA;
+  ;
+}
+
+.artiles-inner__item__img{
+  width: 305px;
+  height: 180px;
+}
+
+.artiles-inner__item__img2{
+  width: 305px;
+  height: 480px;
+}
+
+.articles-inner__item__box{
+  width: 305px;
+  height: 300px;
+  padding-top: 21px;
+  padding-left: 30px;
+  background-color: white;
+}
+
+.articles-inner__item__box2{
+  width: 305px;
+  height: 480px;
+  padding-top: 43px;
+  padding-left: 30px;
+  background-color: white;
+}
+
+.articles-inner__item__title{
+  font-family: $main-fonts-futura;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 29px;
+  color: $main-color-black;
+}
+
+.articles-inner__item__text{
+  font-family: $main-fonts-futura;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #949494;
+}
+
+.articles-inner__item__link{
+  margin-left: 30px;
+  position: relative;
+  font-family: $main-fonts-futura;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: $main-color-black;
+  transition: 0.6s;
+
+  &::before{
+    content: "";
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    z-index: 2;
+    background-image: url(../../images/pet.svg);
+    background-repeat: no-repeat;
+    top: -4px;
+    left: -30px;
+  }
+
+  &:hover{
+    color: $main-link-color;
+  }
+
+  &:active{
+    color: $main-title-color;
+    opacity: 0.8;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
