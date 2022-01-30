@@ -23,14 +23,24 @@
 }
 
 .feedback-box__title{
+  width: 360px;
   margin-top: 62px;
   margin-bottom: 14px;
   margin-left: 166px;
+  font-family: $main-fonts-futura;
+  font-size: 48px;
+  line-height: 62px;
+  color: white;
 }
 
 .feedback-box__text{
+  width: 334px ;
   margin-bottom: 29px;
   margin-left: 166px;
+  font-family: $main-fonts-futura;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
 }
 
 .feedback-box__form{
@@ -49,7 +59,8 @@
 textarea{
   padding-left: 20px;
   font-family: $main-fonts-futura;
-  color: $main-color-black;
+  color: #949494;
+  
 }
 
 .form-box__btn{

@@ -662,7 +662,7 @@ li {
   width: 177.55px;
   height: 86.23px;
   position: absolute;
-  z-index: 1;
+  z-index: 2;
   top: -22px;
   left: 28px;
 }
@@ -1499,6 +1499,8 @@ li {
 }
 
 .articles-inner__time {
+  margin-top: 0;
+  margin-bottom: 0;
   margin-left: 175px;
   font-family: "FuturaPT";
   font-size: 14px;
@@ -1526,18 +1528,27 @@ li {
   display: -ms-flexbox;
   display: flex;
   width: 640px;
+  margin-right: 28px;
   margin-left: 28px;
 }
 
 .articles-inner__box {
-  width: 270px;
+  width: 260px;
+  height: 20px;
+  margin-top: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
 .articles-inner__box__time {
-  margin-left: 20px;
+  margin-left: 67px;
   font-family: "FuturaPT";
   font-size: 14px;
   line-height: 18px;
@@ -1558,26 +1569,37 @@ li {
 
 .artiles-inner__item__img2 {
   width: 305px;
-  height: 480px;
+  height: 450px;
 }
 
 .articles-inner__item__box {
   width: 305px;
-  height: 300px;
+  height: 270px;
   padding-top: 21px;
   padding-left: 30px;
   background-color: white;
 }
 
 .articles-inner__item__box2 {
-  width: 305px;
-  height: 480px;
-  padding-top: 43px;
-  padding-left: 30px;
+  width: 640px;
+  height: 450px;
+  padding-top: 23px;
+  padding: 0 30px;
   background-color: white;
 }
 
+.articles-inner__item__box2 .articles-inner__item__title {
+  margin-top: 42px;
+  margin-bottom: 15px;
+}
+
+.articles-inner__item__box2 .articles-inner__item__text {
+  margin-bottom: 36.62px;
+}
+
 .articles-inner__item__title {
+  margin-top: 2px;
+  margin-bottom: 15px;
   font-family: "FuturaPT";
   font-weight: 700;
   font-size: 26px;
@@ -1586,9 +1608,10 @@ li {
 }
 
 .articles-inner__item__text {
+  margin-bottom: 30.62px;
   font-family: "FuturaPT";
   font-weight: 400;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 20px;
   color: #949494;
 }
@@ -1653,14 +1676,24 @@ li {
 }
 
 .feedback-box__title {
+  width: 360px;
   margin-top: 62px;
   margin-bottom: 14px;
   margin-left: 166px;
+  font-family: "FuturaPT";
+  font-size: 48px;
+  line-height: 62px;
+  color: white;
 }
 
 .feedback-box__text {
+  width: 334px;
   margin-bottom: 29px;
   margin-left: 166px;
+  font-family: "FuturaPT";
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
 }
 
 .feedback-box__form {
@@ -1684,7 +1717,7 @@ li {
 textarea {
   padding-left: 20px;
   font-family: "FuturaPT";
-  color: #333333;
+  color: #949494;
 }
 
 .form-box__btn {
